@@ -1,3 +1,4 @@
+import os
 import logging
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup, LabeledPrice
 from telegram.ext import (
@@ -14,7 +15,7 @@ logging.basicConfig(
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO
 )
 
-TOKEN = '8883576881:AAHuJhkB-FYgJ9L7c6ETz2Oq0MKHuSaaHAM'
+TOKEN = '8883576881:AAH0XvgQlU9HBx2pRc9BuI1ifTH3owEynok'
 
 user_data = {}
 waiting_users = {'male': [], 'female': []}
